@@ -21,7 +21,8 @@ export default {
 }
 </script>
 
-<style scoped>
+<style scoped lang="less">
+  @import '//at.alicdn.com/t/font_598019_jprmjk930x80k9.css';
   *{margin: 0;padding: 0}
   ul,li{list-style: none}
   a{text-decoration: none}
