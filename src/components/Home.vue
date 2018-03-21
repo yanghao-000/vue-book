@@ -18,14 +18,12 @@ export default {
     }
   },
   created () {
-    console.log(this.sliders)
     this.getSlider()
   },
   methods: {
     async getSlider () {
       // 给data起别名 对象中的属性名字必须和 得到的结果名字一致
-      this.sliders = await getSliders()
-      console.log(this.sliders)
+      this.sliders = (await getSliders()).data
       // 将获取的数据放到sliders中
     }
   },
