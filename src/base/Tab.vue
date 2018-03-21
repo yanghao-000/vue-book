@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="footer">
     <router-link to="/home">
       <i class="iconfont icon-shouye"></i>
       <span>首页</span>
@@ -33,5 +33,24 @@ export default {
 </script>
 
 <style scoped lang="less">
-
+  .footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    border-top: 1px solid #ccc;
+    a{
+      display: flex;
+      color:yellowgreen;
+      flex-direction: column;
+      flex:1;
+      align-items: center;
+      justify-content: center;
+    }
+    a.router-link-active{
+      color:red
+    }
+  }
 </style>

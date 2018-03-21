@@ -21,11 +21,11 @@ export default {
 }
 </script>
 
-<style scoped lang="less">
-  @import '//at.alicdn.com/t/font_598019_jprmjk930x80k9.css';
+<style lang="less">
+  @import '//at.alicdn.com/t/font_598019_86qkszu87k9ms4i.css';
   *{margin: 0;padding: 0}
   ul,li{list-style: none}
   a{text-decoration: none}
-  input,button{-webkit-appearance:none;}
+  input,button{-webkit-appearance:none}
   .content{position: fixed;width: 100%;top: 40px;bottom: 50px;overflow: auto}
 </style>
