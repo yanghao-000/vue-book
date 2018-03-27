@@ -18,7 +18,7 @@ function write(data,cb) { // 写入内容
   fs.writeFile('./book.json',JSON.stringify(data),cb)
 }
 let pageSize = 5;// 每页显示五个
-http.createServer((req,res)=>{
+http.createServer((req, res) => {
   res.setHeader("Access-Control-Allow-Origin", "*");
 res.setHeader("Access-Control-Allow-Headers", "Content-Type,Content-Length, Authorization, Accept,X-Requested-With");
 res.setHeader("Access-Control-Allow-Methods","PUT,POST,GET,DELETE,OPTIONS");
